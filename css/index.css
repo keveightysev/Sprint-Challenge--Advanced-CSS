@@ -166,6 +166,11 @@ p {
   justify-content: center;
   align-items: center;
   padding: 10px 0;
+  height: 100px;
+  background-color: #81848E;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 .nav h1 {
   font-size: 4rem;
@@ -188,6 +193,9 @@ p {
   color: #23293B;
   text-decoration: none;
   font-weight: bold;
+}
+.home .intro {
+  padding-top: 100px;
 }
 .home .intro img {
   border-radius: 5px;
