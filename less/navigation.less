@@ -1,1 +1,23 @@
 // Navigation code here
+
+.nav {
+    .custom-flex(column, center, center);
+    padding: 10px 0;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    nav {
+        margin: 20px 0 5px;
+        .custom-flex(row, space-between, center);
+        width: 50%;
+
+        a {
+            font-size: 1.6rem;
+            color: @ebony-clay;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    }
+}

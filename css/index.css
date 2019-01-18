@@ -160,6 +160,33 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.nav h1 {
+  font-size: 4rem;
+}
+.nav nav {
+  margin: 20px 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.nav nav a {
+  font-size: 1.6rem;
+  color: #23293B;
+  text-decoration: none;
+  font-weight: bold;
+}
+.home .intro img {
+  border-radius: 5px;
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -201,6 +228,22 @@ p {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  color: #F6F7F8;
+  border: 1px solid #22283A;
+  border-radius: 5px;
+  padding: 8px 0;
+  width: 30%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F6F7F8;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;
